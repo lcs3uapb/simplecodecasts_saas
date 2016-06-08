@@ -6,7 +6,7 @@ Rails.application.initialize!
 
 #config.action_mailer.raise_delivery_errors = true
 #config.action_mailer.delivery_method = :smtp
-ActionMailer:Base.smtp_settings = {
+ActionMailer::Base.smtp_settings = {
     :address => 'smtp.sendgrid.net',
     :port => '587',
     :authentication => :plain,
